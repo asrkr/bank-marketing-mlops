@@ -1,4 +1,4 @@
-from bank_marketing_mlops.data.load import load_bank_data
+from mlops_project.data.load import load_bank_data
 
 def test_shape():
     df = load_bank_data()
